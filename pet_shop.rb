@@ -55,3 +55,7 @@ end
 def customer_pet_count(count)
   count[:pets].count.to_i
 end
+
+def add_pet_to_customer(customer, pet)
+  customer[:pets] << pet
+end
